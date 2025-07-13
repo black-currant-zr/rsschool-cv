@@ -2,9 +2,9 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-background-color: #f5f3f3;
-align-items: center;
-color: white;
+    background-color: #f5f3f3;
+    align-items: center;
+    color: white;
 }
 
 a{
@@ -30,24 +30,24 @@ h2{
 }
 
 header::after{
-     content: "";
+    content: "";
     display: block;
     border-bottom: 1px solid rgb(252, 252, 252);
 }
 .container{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-justify-content: start;
-gap: 200px;
-width: 1640px;
-background-color: #202020;
-padding: 50px 130px 50px 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: start;
+    gap: 200px;
+    width: 1360px;
+    background-color: #202020;
+    padding: 50px 130px 50px 130px;
 }
 
 .container img{
-width: 400px;
-height: auto;
-border-radius: 5px;
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
 }
 
 .title-name{
@@ -60,7 +60,7 @@ border-radius: 5px;
 
 .contact{
     display: flex;
-align-items: center;
+    align-items: center;
 }
 
 .main p{
@@ -81,4 +81,24 @@ align-items: center;
 .code-example h2{
     background-color: #202020;
     color: white;
+}
+
+.container-footer{
+    display: flex;
+    gap: 410px;
+    width: 1360px;
+    background-color: #444444;
+    padding: 50px 130px 50px 130px;
+    color: black;
+    font-size: 18px;
+}
+
+.school-logo{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.container-footer p{
+    align-content: center;
+    font-size: 24px;
 }
