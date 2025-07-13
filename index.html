@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body>
@@ -11,25 +12,26 @@
             <img src="https://sun9-34.userapi.com/s/v1/ig2/OJ67OFkskJ-ErGuf_GIpAgaabHFx2IqGjMK6885QQCqfNFopweLy4ONOQ4gJ4VH1bHjiHhYAmxnwyX7U7bb_uL40.jpg?quality=95&as=32x42,48x63,72x95,108x142,160x210,240x315,360x473,480x630,540x709,640x840,720x945,1080x1418&from=bu&cs=1080x0" alt="photo of resume owner">
             <div class="personal-data">
                 <h1 class="title-name">Anastasia Zarutskaya</h1>
-                <nav class="contscts">
-                    <ul class="contscts-list">
+                <h2 class="title-block">Contacts for communication</h2>
+                <nav class="contacts">
+                    <ul class="contacts-list">
                         <li class="contact">
-                            <p class="contact-text">Phone number:</p>
-                         <a href="tel:+79529584082" class="contact-link">+7 952 958-40-82</a>
+                            <p class="contact-text">Residence address:&ensp;Russia, Voronezh</p>
                         </li>
                         <li class="contact">
-                            <p class="contact-text">Email address:</p>
+                            <p class="contact-text">Phone number:&ensp;</p>
+                            <a href="tel:+79529584082" class="contact-link">+7 952 958-40-82</a>
+                        </li>
+                        <li class="contact">
+                            <p class="contact-text">Email address:&ensp;</p>
                             <a href="mailto:anastasiascherbakova25@gmail.com" class="contact-link">anastasiascherbakova25@gmail.com</a>
-                     </li>
-                        <li class="contact">
-                            <p class="contact-text">Residence address: Russia, Voronezh</p>
                         </li>
-                     <li class="contact">
-                            <p class="contact-text">GitHub:</p>
+                        <li class="contact">
+                            <p class="contact-text">GitHub:&ensp;</p>
                             <a href="https://github.com/black-currant-zr" class="contact-link">black-currant-zr</a>
                         </li>
                         <li class="contact">
-                        <p class="contact-text">Discord:</p>
+                        <p class="contact-text">Discord:&ensp;</p>
                             <a href="https://discordapp.com/users/1059477835967909998" class="contact-link">A Zaruckaya</a>
                         </li>
                     </ul>
@@ -37,5 +39,79 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <div class="container">
+            <div class="left-block">
+                <div class="about-me">
+                    <h2 class="title-block">About me</h2>
+                    <p class="block-text">
+                        I am convinced that the best investment is an investment in knowledge. That is why I am constantly learning: mastering new technologies, taking courses, practicing and experimenting. I believe that even small steps in learning lead to big results.
+                    </p>
+                </div>
+                <div class="strengths">
+                    <h2 class="title-block">Strengths</h2>
+                    <ul class="strengths-list">
+                        <li class="strength">Analytical mindset - I can structure tasks and find effective solutions.</li>
+                        <li class="strength">Result-oriented - I focus on quality and efficiency.</li>
+                        <li class="strength">Organized - I can plan my time and set priorities.</li>
+                        <li class="strength">Public speaking - I confidently present ideas and projects.</li>
+                    </ul>
+                </div>
+                <div class="code-example">
+                    <h2 class="title-block">Code example</h2>
+                    <pre>
+                        <code>
+                            function digitize(n) {
+                                let arrayOfNumbers = [];
+                                if (n === 0) {
+                                    arrayOfNumbers.push(0);
+                                    return arrayOfNumbers;
+                                }
+                                while (n) {
+                                 arrayOfNumbers.push(n % 10);
+                                    n = Math.floor(n / 10);
+                                }
+                                return arrayOfNumbers;
+                            }
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <div class="right-block">
+                <div class="education">
+                    <h2 class="title-block">Education</h2>
+                    <div class="university-name">
+                        <p>2019-2024</p>
+                        <p>Voronezh State Forest Engineering University</p>
+                        <p>Specialty "Forestry"</p>
+                    </div>
+                    <ul class="courses-list">
+                        <li class="course">
+                            <a href="https://stepik.org/course/210361/syllabus" class="course-link">your JavaScript</a>
+                        </li>
+                        <li class="course">
+                            <a href="https://learn.javascript.ru/" class="course-link">Modern JavaScript Tutorial</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2 class="title-block">Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skill">CSS</li>
+                        <li class="skill">HTML</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">Vue.js</li>
+                        <li class="skill">PHP (basic)</li>
+                        <li class="skill">Figma</li>
+                        <li class="skill">Pixso</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h2 class="title-block">English proficiency level</h2>
+                    <p> A2</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
